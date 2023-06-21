@@ -10,3 +10,4 @@ function PrivateRoute({auth, children}) {
 }
 
 export default PrivateRoute;
+

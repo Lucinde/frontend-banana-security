@@ -21,7 +21,7 @@ function NavBar() {
 
             {isAuth ?
                 <div>
-                    <span className="user-nav">{user}</span>
+                    <span className="user-nav">{user.username}</span>
                     <button
                         type="button"
                         onClick={logout}
